@@ -1,0 +1,1 @@
+Run `npm stars` for unpacking dependencies and starting dev server.  Navigate to `http://localhost:8080/`.

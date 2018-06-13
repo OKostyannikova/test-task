@@ -1,0 +1,50 @@
+.hero {
+    padding: 115px 0 173px;
+    text-align: center;
+    background-color: #fbfafa;
+    position: relative;
+    z-index: 10;
+}
+
+.hero__title {
+    font-size: 56px;
+    letter-spacing: -2.24px;
+    font-weight: 300;
+    width: 59%;
+    margin: 0 auto;
+    padding-top: 115px;
+    background: url(../img/hotdog-icon.png) top center no-repeat;
+}
+
+.more-hotdog-button {
+    width: 310px;
+    margin: 86px auto 0;
+    padding: 23px 0 20px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.8px;
+    color: #ffffff;
+    background-color: #286782;
+    border-radius: 6px;
+    &:hover {
+        background-color: #286782 + 30%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .hero {
+        padding: 100px 0 120px;
+    }
+    .hero__title {
+        width: 85%;
+    }
+}
+
+@media (max-width: 767.98px) {
+  .hero {
+    padding: 60px 0 80px;
+}
+    .hero__title {
+        font-size: 40px;
+    }
+}
